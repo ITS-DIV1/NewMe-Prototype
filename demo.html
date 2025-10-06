@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/target.png">
+    <title>NewMe Demo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <div id="particles-js"></div>
+
+    <section id="home2" class="home">
+
+      <nav>
+        <h2 class="logo"><span>New</span>Me</h2>
+        <a href="#home2">Home</a>
+        <a href="#challenge">challenge</a>
+        <a href="#contact">Contact</a>
+        <a class="btn" href="/NewMe Prototype/index.html">NewMe</a>
+      </nav>
+      <div class="text">
+      <p class="pd1">Start Your <span id="typing2">  </span>!!</p>
+      </div>
+
+      <Div>
+        <pre class="essay">Somewhere inside you, a version of yourself is waiting to rise — stronger, wiser, unstoppable. This is where that
+journey begins. Step forward, face the challenge, and prove that change is more than possible — it’s inevitable.
+        </pre>
+      </Div>
+
+    </section>
+
+    <section class="community">
+      <h2>✨The 5 most <span>popular stories</span> this month</h2>
+      <div class="cards-slider">
+        <div class="card2"><span>Alex</span><br><small>He quit smoking for 90 days</small></div>
+        <div class="card2"><span>Younes</span><br><small>He stopped eating harmful sugars for 60 days</small></div>
+        <div class="card2"><span>Caroline</span><br><small>She stopped staying up late for 30 days</small></div>
+        <div class="card2"><span>Cassandra</span><br><small>She was able to drink 3 liters of water for 40 days</small></div>
+        <div class="card2"><span>Noah</span><br><small>He was able to stick to the exercise for 90 days</small></div>
+        
+      </div>
+    </section>
+
+    <section class="about" id="challenge">
+
+  <div class="about-content">
+    
+    <h2>An example of a <span>challenge</span></h2>
+    <br>
+    <div class="cards">
+      <div class="challenge-card">
+  <h2 class="habit-name">Waking up early 💪</h2>
+  <p class="total-days">Total-Days 30</p>
+
+  
+  <div class="progress-container">
+    <div class="progress-bar" style="width: 60%;"></div>
+  </div>
+  <p class="progress-text">Days 18 / 30</p>
+
+  
+  <div class="percent-container">
+    <div class="percent-bar" style="width: 60%;"></div>
+  </div>
+  <p class="percent-text">Done 60%</p>
+
+  
+  <p class="motivation">Keep going, every day brings you closer to your goal🔥</p>
+</div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="Contact">
+  
+  <div>
+    <p class="copy">&copy; Made By Abdelrahman Atef <span>(DIV)</span></p>
+  </div>
+
+</section>
+
+    
+
+    <script>
+    var typed = new Typed("#typing2", {
+      strings: [
+        "rebirth",
+        "evolution",
+        "revolution",
+        "legacy",
+        "rebirth"
+      ],
+      typeSpeed: 70,    
+      backSpeed: 50,    
+      backDelay: 3000,  
+      loop: true        
+    });
+  </script>
+
+
+  <script>
+particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 120,
+      "density": { "enable": true, "value_area": 600 }
+    },
+    "color": { "value": "#03dac6" },
+    "shape": {
+      "type": "circle",
+      "stroke": { "width": 4, "color": "#000" }
+    },
+    "opacity": {
+      "value": 1,
+      "random": true,
+      "anim": { "enable": true, "speed": 0.5, "opacity_min": 0.1, "sync": false }
+    },
+    "size": {
+      "value": 8,
+      "random": true,
+      "anim": { "enable": true, "speed": 2, "size_min": 0.5, "sync": false }
+    },
+    "line_linked": {
+      "enable": false,
+      "distance": 150,
+      "color": "#bb86fc",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 2,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false
+    }
+  },
+  "interactivity": {
+    "detect_on": "window",
+    "events": {
+      "onhover": { "enable":false, "mode": "grab" },
+      "onclick": { "enable": true, "mode": "push" },
+      "resize": true
+    },
+    "modes": {
+      "grab": { "distance": 200, "line_linked": { "opacity": 0.6 } },
+      "push": { "particles_nb": 2 }
+    }
+  },
+  "retina_detect": true
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/target.png">
+    <link rel="stylesheet" href="index.css">
+    <title>NewMe</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    
+    <div id="particles-js"></div>
+
+    <section id="home" class="home">
+
+      <nav>
+        <h2 class="logo"><span>New</span>Me</h2>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="btn" href="/NewMe Prototype/demo.html">Start Now</a>
+      </nav>
+
+      <div>
+        <p class="p1">Break your limits,<span id="typing"> <span>Habits</span></span></p>
+      </div>
+
+      <div class="p2"><a class="btn" href="/NewMe Prototype/demo.html">Try Demo</a></div>
+
+    </section>
+
+
+    <section class="about" id="about">
+
+  <div class="about-content">
+    
+    <h2>About <span>NewMe</span></h2>
+    <p>Break free from old patterns and step into the best version of yourself — one habit at a time.</p>
+    <p>NewMe isn’t just a platform, it’s your personal journey to transformation</p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Track Your Habits</h3>
+        <p>Monitor your daily progress and stay consistent.</p>
+      </div>
+
+      <div class="card">
+        <h3>Set Challenges</h3>
+        <p>Push your limits with custom goals designed by you.</p>
+      </div>
+
+      <div class="card">
+        <h3>Grow Together</h3>
+        <p>Join a community that motivates and inspires change.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="Contact">
+  
+  <div>
+    <p class="copy">&copy; Made By Abdelrahman Atef <span>(DIV)</span></p>
+  </div>
+
+</section>
+    
+
+
+<script>
+    var typed = new Typed("#typing", {
+      strings: [
+        "Challenge yourself.",
+        "Build new habits.",
+        "Start your journey today.",
+        "Redefine yourself.",
+        "Challenge yourself."
+      ],
+      typeSpeed: 70,    
+      backSpeed: 50,    
+      backDelay: 3000,  
+      loop: true        
+    });
+  </script>
+
+
+    <script>
+particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 120,
+      "density": { "enable": true, "value_area": 600 }
+    },
+    "color": { "value": "#03dac6" },
+    "shape": {
+      "type": "circle",
+      "stroke": { "width": 0, "color": "#000" }
+    },
+    "opacity": {
+      "value": 1,
+      "random": true,
+      "anim": { "enable": true, "speed": 0.5, "opacity_min": 0.1, "sync": false }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": { "enable": true, "speed": 2, "size_min": 0.5, "sync": false }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#bb86fc",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 2,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false
+    }
+  },
+  "interactivity": {
+    "detect_on": "window",
+    "events": {
+      "onhover": { "enable": true, "mode": "grab" },
+      "onclick": { "enable": true, "mode": "push" },
+      "resize": true
+    },
+    "modes": {
+      "grab": { "distance": 200, "line_linked": { "opacity": 0.6 } },
+      "push": { "particles_nb": 2 }
+    }
+  },
+  "retina_detect": true
+});
+</script>
+
+</body>
+</html>
+
